@@ -1,0 +1,22 @@
+# Project 5: Login System
+
+correct_username = "Python"
+correct_password = "py123"
+
+entered_username = input("Enter your Username: ")
+entered_password = input("Enter your Password: ")
+
+if correct_username != entered_username and correct_password != entered_password:
+    print("Account Locked")
+
+elif correct_username == entered_username:
+    
+    if correct_password == entered_password:
+        print("Login Successfull")
+        print("Welcome to the system")
+        
+    else:
+        print("Incorrect Password")
+
+else:
+    print("Invalid Username")
