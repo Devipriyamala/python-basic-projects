@@ -7,5 +7,6 @@ for i in range(1,6):
 average = total / 5
 print("Total: ",total)
 print("Average: ",average)
+
   
   
